@@ -30,6 +30,7 @@
                         </div>
                         <div class="card-footer">
                             <a class="btn btn-secondary" href="{{ route('comics.show', $comic) }}">Vedi</a>
+                            <a class="btn btn-warning mx-2" href="{{ route('comics.edit', $comic) }}">Modifica</a>
                         </div>
                     </div>
                 </div>

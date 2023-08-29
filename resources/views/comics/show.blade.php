@@ -25,6 +25,7 @@
                     <p>{{ $comic->writers }}</p>
                 </div>
                 <a class="btn btn-secondary" href="{{ route('comics.index') }}">Torna ai Fumetti</a>
+                <a class="btn btn-warning mx-2" href="{{ route('comics.edit', $comic) }}">Modifica</a>
             </div>
         </div>
     </div>
