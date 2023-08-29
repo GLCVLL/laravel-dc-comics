@@ -1,0 +1,16 @@
+/* utilities */
+@use 'utils';
+
+/* generals */
+@use 'general';
+
+/* header */
+@use 'header';
+
+/* main */
+@use 'main';
+
+/* footer */
+@use 'footer';
+
+@import '~bootstrap/scss/bootstrap';

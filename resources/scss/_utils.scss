@@ -1,0 +1,19 @@
+
+/*main*/
+main {
+    background-color: black;
+}  
+/* footer */
+.footer-top {
+    width: 100%;
+    min-height: 300px;
+    background-image: url('../../public/images/dc-logo-bg.png'), url('../../public/images/footer-bg.jpg');
+    background-position: top right, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+  }
+
+.footer-bottom{
+    height: 70px;
+    background-color: #303030;
+}  
