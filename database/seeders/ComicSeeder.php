@@ -19,8 +19,7 @@ class ComicSeeder extends Seeder
 
             $comic['artists'] = json_encode($comic['artists']);
             $comic['writers'] = json_encode($comic['writers']);
-
-
+            $comic['price'] = substr($comic['price'], 1);
             $new_comic = new Comic();
 
             $new_comic->fill($comic);

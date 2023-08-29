@@ -6,7 +6,7 @@
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('characters') }}">Characters</a></li>
-            <li><a href="{{ route('comics') }}">Comics</a></li>
+            <li><a href="{{ route('comics.index') }}">Comics</a></li>
             <li><a href="{{ route('movies') }}">Movies</a></li>
             <li><a href="#">Tv</a></li>
             <li><a href="#">Games</a></li>
